@@ -84,6 +84,22 @@
             $(".ltcusdprice").text("$"+litecoin_CurrentPrice );
 
             
+                 if ( litecoin_percent_change_1h  < 0 ) {
+
+                    $(".ltc1hicon").removeClass("fa-caret-up");
+                    $(".ltc1hicon").addClass("fa-caret-down");
+
+                 }
+                 if ( litecoin_percent_change_24h  < 0 ){
+                    $(".ltc24hicon").removeClass("fa-caret-up");
+                    $(".ltc24hicon").addClass("fa-caret-down");
+
+                 }
+                 if ( litecoin_percent_change_7d  < 0 ){
+                    $(".ltcd7icon").removeClass("fa-caret-up");
+                    $(".ltcd7icon").addClass("fa-caret-down");
+
+                 }
             
         }
         
@@ -115,7 +131,7 @@
 
             for ( var i = 1 ; i < 2 ; i++ ){
 
-                CONSOLE_DEBUG && console.log(btcName);
+                 CONSOLE_DEBUG && console.log(btcName);
                  CONSOLE_DEBUG && console.log("circulating_supply", btcCircSupply);
                  CONSOLE_DEBUG && console.log("btcMarketCap", btcMarketCap);
                  CONSOLE_DEBUG && console.log("percent_change_1h", percent_change_1h);
