@@ -97,7 +97,7 @@ Body :		Poppins, sans-serif;
 .hrscont{
     position: relative;
 }
-.btcusdprice, .ltcusdprice{
+.btcusdprice, .ltcusdprice,.ethusdprice,.xrpusdprice{
         position: absolute;
     right: 0px;
     font-size: 18px;

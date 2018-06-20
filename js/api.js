@@ -43,6 +43,7 @@
             var ethereum_percent_change_1h = x.data[1027].quotes.USD.percent_change_1h;
             var ethereum_percent_change_24h = x.data[1027].quotes.USD.percent_change_24h;
             var ethereum_percent_change_7d = x.data[1027].quotes.USD.percent_change_7d;
+            var ethereum_CurrentPrice = x.data[1027].quotes.USD.price;
 
 
             var litecoin_CircSupply = x.data[2].circulating_supply;
@@ -50,19 +51,22 @@
             var litecoin_percent_change_1h = x.data[2].quotes.USD.percent_change_1h;
             var litecoin_percent_change_24h = x.data[2].quotes.USD.percent_change_24h;
             var litecoin_percent_change_7d = x.data[2].quotes.USD.percent_change_7d;
-            var litecoin_CurrentPrice = x.data[1].quotes.USD.price;
+            var litecoin_CurrentPrice = x.data[2].quotes.USD.price;
 
             var Ripple_CircSupply = x.data[52].circulating_supply;
             var Ripple_MarketCap = x.data[52].quotes.USD.market_cap;
             var Ripple_percent_change_1h = x.data[52].quotes.USD.percent_change_1h;
             var Ripple_percent_change_24h = x.data[52].quotes.USD.percent_change_24h;
             var Ripple_percent_change_7d = x.data[52].quotes.USD.percent_change_7d;
+            var Ripple_CurrentPrice = x.data[52].quotes.USD.price;
 
             var bitcoin_cash_CircSupply = x.data[1831].circulating_supply;
             var bitcoin_cash_MarketCap = x.data[1831].quotes.USD.market_cap;
             var bitcoin_cash_percent_change_1h = x.data[1831].quotes.USD.percent_change_1h;
             var bitcoin_cash_percent_change_24h = x.data[1831].quotes.USD.percent_change_24h;
             var bitcoin_cash_percent_change_7d = x.data[1831].quotes.USD.percent_change_7d;
+            var bitcoin_cash_CurrentPrice = x.data[1831].quotes.USD.price;
+
 
             // var neo_CircSupply = x.data[1376].circulating_supply;
             // var neo_MarketCap = x.data[1376].quotes.USD.market_cap;
@@ -100,6 +104,55 @@
                     $(".ltcd7icon").addClass("fa-caret-down");
 
                  }
+
+            $(".ethCircSupply").text(ethereum_CircSupply);
+            $(".ethMarketCap").text(ethereum_MarketCap);
+            $(".eth1h").text(ethereum_percent_change_1h+"%" );
+            $(".eth24h").text(ethereum_percent_change_24h+"%" );
+            $(".eth7d").text(ethereum_percent_change_7d+"%" );
+            $(".ethusdprice").text("$"+ethereum_CurrentPrice );
+
+                if ( litecoin_percent_change_1h  < 0 ) {
+
+                    $(".eth1hicon").removeClass("fa-caret-up");
+                    $(".eth1hicon").addClass("fa-caret-down");
+
+                 }
+                 if ( litecoin_percent_change_24h  < 0 ){
+                    $(".eth24hicon").removeClass("fa-caret-up");
+                    $(".eth24hicon").addClass("fa-caret-down");
+
+                 }
+                 if ( litecoin_percent_change_7d  < 0 ){
+                    $(".ethd7icon").removeClass("fa-caret-up");
+                    $(".ethd7icon").addClass("fa-caret-down");
+
+                 }
+            $(".xrpCircSupply").text(Ripple_CircSupply);
+            $(".xrpMarketCap").text(Ripple_MarketCap);
+            $(".xrp1h").text(Ripple_percent_change_1h+"%" );
+            $(".xrp24h").text(Ripple_percent_change_24h+"%" );
+            $(".xrp7d").text(Ripple_percent_change_7d+"%" );
+            $(".xrpusdprice").text("$"+Ripple_CurrentPrice );
+
+                if ( Ripple_percent_change_1h  < 0 ) {
+
+                    $(".xrp1hicon").removeClass("fa-caret-up");
+                    $(".xrp1hicon").addClass("fa-caret-down");
+
+                 }
+                 if ( Ripple_percent_change_24h  < 0 ){
+                    $(".xrp24hicon").removeClass("fa-caret-up");
+                    $(".xrp24hicon").addClass("fa-caret-down");
+
+                 }
+                 if ( Ripple_percent_change_7d  < 0 ){
+                    $(".xrpd7icon").removeClass("fa-caret-up");
+                    $(".xrpd7icon").addClass("fa-caret-down");
+
+                 } 
+
+
             
         }
         
@@ -167,10 +220,6 @@
     });
 
   }
-
-
-
-
 
 
   $(document).ready(function(){
