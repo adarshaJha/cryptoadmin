@@ -75,6 +75,9 @@ Body :		Poppins, sans-serif;
     top: -8px;
     left: 44px;
 }
+.p18{
+    padding: 18px !important;
+}
 .none{
     display: none;
 }
