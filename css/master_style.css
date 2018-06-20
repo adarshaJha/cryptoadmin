@@ -75,6 +75,9 @@ Body :		Poppins, sans-serif;
     top: -8px;
     left: 44px;
 }
+.none{
+    display: none;
+}
 .fa-caret-down{
         color: #c72a2a;
     position: absolute;
