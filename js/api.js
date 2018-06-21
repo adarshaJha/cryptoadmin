@@ -223,8 +223,13 @@
 
 
   $(document).ready(function(){
-    tickerTopTenCryptoCurrencies();
-    getBitcoinCurrentRate();
+    
+    window.setInterval(function(){
+       /// call your function here
+          tickerTopTenCryptoCurrencies();
+          getBitcoinCurrentRate();
+    }, 10000);  // Change Interval here to test. For eg: 5000 for 5 sec
+    
 
     
 });
