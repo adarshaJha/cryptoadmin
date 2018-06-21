@@ -224,6 +224,9 @@
 
   $(document).ready(function(){
     
+    tickerTopTenCryptoCurrencies();
+    getBitcoinCurrentRate();
+    
     window.setInterval(function(){
        /// call your function here
           tickerTopTenCryptoCurrencies();

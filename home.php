@@ -1,4 +1,22 @@
-﻿<!DOCTYPE html>
+﻿<?php
+
+  require_once("session.php");
+  
+  require_once("class.user.php");
+  $auth_user = new USER();
+  
+  
+  $user_id = $_SESSION['user_session'];
+  
+  $stmt = $auth_user->runQuery("SELECT * FROM users WHERE user_id=:user_id");
+  $stmt->execute(array(":user_id"=>$user_id));
+  
+  $userRow=$stmt->fetch(PDO::FETCH_ASSOC);
+
+?>
+
+
+<!DOCTYPE html>
 <html lang="en">
   
 <!-- Mirrored from html-templates.multipurposethemes.com/bootstrap-4/admin/crypto-admin/crypto-dark-admin/src2/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Jun 2018 07:20:16 GMT -->
@@ -334,8 +352,8 @@
                 <img src="http://html-templates.multipurposethemes.com/bootstrap-4/admin/crypto-admin/crypto-dark-admin/images/user5-128x128.jpg" class="float-left rounded-circle" alt="User Image">
 
                 <p>
-                  Romi Roy
-                  <small class="mb-5">jb@gmail.com</small>
+                  <?php print($userRow['user_name']); ?>
+                  <small class="mb-5"><?php print($userRow['user_email']); ?></small>
                   <a href="#" class="btn btn-danger btn-sm btn-rounded">View Profile</a>
                 </p>
               </li>
@@ -357,7 +375,7 @@
                   </div>
 				<div role="separator" class="divider col-12"></div>
 				  <div class="col-12 text-left">
-                    <a href="#"><i class="fa fa-power-off"></i> Logout</a>
+                    <a href="logout.php?logout=true"><i class="fa fa-power-off"></i> Logout</a>
                   </div>				
                 </div>
                 <!-- /.row -->
