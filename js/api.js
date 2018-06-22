@@ -24,8 +24,9 @@ function cryptoHeadlines(){
 
             for( var i = 0 ; i < 10 ; i++ ){
 
-                
+
                CONSOLE_DEBUG && console.log("newsResponse", newsResponse.articles[i]);
+               $(".footer").before("<li class='newsli'><a href='"+newsResponse.articles[i].url+"' target='_blank'> "+newsResponse.articles[i].title +"</a></li>")
             }
 
         }

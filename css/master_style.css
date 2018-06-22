@@ -70,6 +70,16 @@ Body :		Poppins, sans-serif;
     font-size: 10px;
 
 }
+.newsli{
+    color: #adadad;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    display: block;
+    white-space: nowrap;
+    border-bottom: 1px solid #585858;
+    font-weight: 400;
+}
 .bgnone{
     background-color: transparent !important;
 }
