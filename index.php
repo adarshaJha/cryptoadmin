@@ -74,7 +74,7 @@ if(isset($_POST['btn-login']))
 <div class="signin-form">
 
 	<div class="container">
-        <h2 class="form-signin-heading">Log In to WebApp.</h2><hr />
+        <h2 class="form-signin-heading">CryptoFund</h2><hr />
         
        <form class="form-signin" method="post" id="login-form">
       
