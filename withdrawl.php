@@ -119,7 +119,7 @@
 	
 	<!-- Chart -->
 	<script src="http://html-templates.multipurposethemes.com/bootstrap-4/admin/crypto-admin/crypto-dark-admin/assets/vendor_components/chart.js-master/Chart.min.js"></script>
-	<script src="js/pages/chartjs-int.js"></script>
+	<!-- <script src="js/pages/chartjs-int.js"></script> -->
 	
 	<!-- Crypto_Admin for demo purposes -->
   <script src="js/demo.js"></script>

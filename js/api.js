@@ -9,6 +9,30 @@
 
 // 
 
+
+
+function cryptoHeadlines(){
+
+    $.ajax({
+        type: "GET",
+        url: 'includes/headlines.php',
+        data: '',
+        success : function(Response){
+            var newsResponse = Response ;
+            newsResponse = JSON.parse(newsResponse);
+            CONSOLE_DEBUG && console.log("newsResponse", newsResponse);
+
+            for( var i = 0 ; i < 10 ; i++ ){
+
+                
+               CONSOLE_DEBUG && console.log("newsResponse", newsResponse.articles[i]);
+            }
+
+        }
+
+    });
+}
+
   
 // tickerTopTenCryptoCurrencies() to show top ten cryptos based on their rank 
 // url : https://api.coinmarketcap.com/v2/ticker/?limit=10
@@ -224,9 +248,10 @@
 
   $(document).ready(function(){
     
+    cryptoHeadlines();
     tickerTopTenCryptoCurrencies();
     getBitcoinCurrentRate();
-    
+
     window.setInterval(function(){
        /// call your function here
           tickerTopTenCryptoCurrencies();

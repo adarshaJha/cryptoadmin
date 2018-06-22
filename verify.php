@@ -19,14 +19,14 @@
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
+      <div class="">
     <div class="col-md-10 col-md-push-1 col-account">
         <div class="header">
             <h1><i class="fa fa-id-card-o"></i> Verify</h1>
             <h6>SIMPLE IDENTITY VERIFICATION.</h6></div>
         <p>If you wish to use the withdraw function, you have to complete our KYC verification process.</p>
         <h6>Please enter your details:</h6>
-        <div class="row">
+        <div class="">
             <div class="well text-left">
                 <form class="kyc-form-class" id="kyc-form" method="post">
                     <input name="csrfmiddlewaretoken" type="hidden" value="kf07dstwKEevM8UTu6tw7BbmB61TSngn4COF0Mizni8wpUeCghpIVQzZ0Wc736DU">

@@ -24,7 +24,21 @@
       <ul class="sidebar-menu" data-widget="tree">
 		<li class="nav-devider"></li>
         <li class="header nav-small-cap">PERSONAL</li>
-       
+       <li>
+          <a href="withdrawl.php">
+            <i class="fa fa-dashboard"></i>
+            <span>Dashboard</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+         <!--  <ul class="treeview-menu">
+            <li><a href="pages/reports/transactions.html">Transactions</a></li>
+            <li><a href="pages/reports/top-gainers-losers.html">Top Gainers/Losers</a></li>
+            <li><a href="pages/reports/market-capitalizations.html">Market Capitalizations</a></li>
+            <li><a href="pages/reports/crypto-stats.html">Crypto Stats</a></li>
+          </ul> -->
+        </li>
         <li>
           <a href="withdrawl.php">
             <i class="icon-chart"></i>
