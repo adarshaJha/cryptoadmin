@@ -29,7 +29,7 @@
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="breadcrumb-item active">Dashboard</li>
       </ol>
     </section>
@@ -66,7 +66,7 @@
             </div>
             <div class="hrscont">
             <div class="btcusdprice ">
-              A20 40,547,920
+              
             </div>
               <div class="col-md-8 m15">
                   <div class="percentonehr lw35 hour1 btc1h">0.14%
@@ -97,7 +97,7 @@
             </div>
             <div class="hrscont">
             <div class="btcusdprice ">
-              $44,820,204
+              
             </div>
               <div class="col-md-8 m15">
                   <div class="percentonehr lw35 hour1 btc1h">0.14%
@@ -129,7 +129,7 @@
             </div>
             <div class="hrscont">
             <div class="btcusdprice ">
-              $1.10536
+              
             </div>
               <div class="col-md-8 m15">
                   <div class="percentonehr lw35 hour1 btc1h">0.14%
@@ -161,7 +161,7 @@
             </div>
             <div class="hrscont">
             <div class="btcusdprice ">
-              $7654.88
+            
             </div>
               <div class="col-md-8 m15">
                   <div class="percentonehr lw35 hour1 btc1h">0.14%
@@ -400,282 +400,668 @@
 			<div class="col-lg-12 col-12">
 				<div class="box">
 					<div class="box-header with-border">
-					  <h4 class="box-title">Table of Holdings </h4>
-						<ul class="box-controls pull-right">
-						  <!-- <li><a class="box-btn-close" href="#"></a></li> -->
-						  <li><a class="box-btn-slide" href="#"></a></li>	
-						  <li><a class="box-btn-fullscreen" href="#"></a></li>
-						</ul>
-					</div>
-					<div class="box-body no-padding">
-						<div class="table-responsive">
-							<table class="table no-bordered no-margin table-striped">
-								<thead>
-									<tr>
-										<th>Rank</th>
-										<th>Coin</th>
-										<th>Amount</th>
-										<th>Value</th>
-                    <th>Percentage</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-										<td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-										<td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-										<td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-									</tr>
-                  <tr>
+              <h4 class="box-title">Table of Holdings </h4>
+              <ul class="box-controls pull-right">
+                <!-- <li><a class="box-btn-close" href="#"></a></li> -->
+                <li><a class="box-btn-slide" href="#"></a></li>	
+                <li><a class="box-btn-fullscreen" href="#"></a></li>
+              </ul>
+          </div>
+          <div class="box-body no-padding">
+              <div class="table-responsive">
+                  <table class="table no-bordered no-margin table-striped">
+                      <thead>
+                          <tr>
+                              <th>Rank</th>
+                              <th>Coin</th>
+                              <th>Amount</th>
+                              <th>Value($)</th>
+                              <th>Percentage</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th>
+             <div class="media align-items-center p-0 p18">
+                1
+             </div>
+          </th>
+                              <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">Bitcoin BTC</p>
+              </div>
+            </div>          
+          </td>
+                              <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+                              <td>
+            <div class="media align-items-center p-0 p18">
+                6679000
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5                                   </div>          
+          </td>
+                          </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                2
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc ETH mr-5" title="ETH"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">Ethereum ETH</p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                517000
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                3
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc LTC mr-5" title="LTC"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">Litecoin LTC</p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                94630
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                4
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc XRP mr-5" title="XRP"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">Ripple XRP</p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                526.61
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                5
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc EOS mr-5" title="EOS"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">EOS </p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                10210
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                6
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc ADA mr-5" title="ADA"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">Cardano ADA</p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                153.73
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                7
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc NEO mr-5" title="NEO"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold">NEO</p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                36980
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+          <th>
+             <div class="media align-items-center p-0 p18">
+                8
+             </div>
+          </th>
+          <td>
+              <div class="media align-items-center p-0">
+              <div class="text-center">
+                <a href="#"><i class="cc BCH mr-5" title="BCH"></i></a>
+              </div>
+              <div>
+                <p class="no-margin text-bold"> Bitcoin Cash BCH</p>
+              </div>
+            </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                1000
+             </div>
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                583830
+             </div>          
+          </td>
+          <td>
+            <div class="media align-items-center p-0 p18">
+                5
+             </div>          
+          </td>
+        </tr>
+        <tr>
+            <th>
+               <div class="media align-items-center p-0 p18">
+                  9
+               </div>
+            </th>
+            <td>
+                <div class="media align-items-center p-0">
+                <div class="text-center">
+                  <a href="#"><i class="cc SALT mr-5" title="SALT"></i></a>
+                </div>
+                <div>
+                  <p class="no-margin text-bold">SALT</p>
+                </div>
+              </div>          
+            </td>
+            <td>
+              <div class="media align-items-center p-0 p18">
+                  1000
+               </div>
+            </td>
+            <td>
+              <div class="media align-items-center p-0 p18">
+                  1340
+               </div>          
+            </td>
+            <td>
+              <div class="media align-items-center p-0 p18">
+                  5
+               </div>          
+            </td>
+          </tr>
+          <tr>
+              <th>
+                 <div class="media align-items-center p-0 p18">
+                    10
+                 </div>
+              </th>
+              <td>
+                  <div class="media align-items-center p-0">
+                  <div class="text-center">
+                    <a href="#"><i class="cc IOTA mr-5" title="IOTA"></i></a>
+                  </div>
+                  <div>
+                    <p class="no-margin text-bold">IOTA</p>
+                  </div>
+                </div>          
+              </td>
+              <td>
+                <div class="media align-items-center p-0 p18">
+                    1000
+                 </div>
+              </td>
+              <td>
+                <div class="media align-items-center p-0 p18">
+                    1130
+                 </div>          
+              </td>
+              <td>
+                <div class="media align-items-center p-0 p18">
+                    5
+                 </div>          
+              </td>
+            </tr>
+            <tr>
+                <th>
+                   <div class="media align-items-center p-0 p18">
+                      11
+                   </div>
+                </th>
+                <td>
+                    <div class="media align-items-center p-0">
+                    <div class="text-center">
+                      <a href="#"><i class="cc DASH mr-5" title="DASH"></i></a>
+                    </div>
+                    <div>
+                      <p class="no-margin text-bold">Dash DASH</p>
+                    </div>
+                  </div>          
+                </td>
+                <td>
+                  <div class="media align-items-center p-0 p18">
+                      1000
+                   </div>
+                </td>
+                <td>
+                  <div class="media align-items-center p-0 p18">
+                      257390
+                   </div>          
+                </td>
+                <td>
+                  <div class="media align-items-center p-0 p18">
+                      5
+                   </div>          
+                </td>
+              </tr>
+              <tr>
+                  <th>
+                     <div class="media align-items-center p-0 p18">
+                        12
+                     </div>
+                  </th>
+                  <td>
+                      <div class="media align-items-center p-0">
+                      <div class="text-center">
+                        <a href="#"><i class="cc XMR mr-5" title="XMR"></i></a>
+                      </div>
+                      <div>
+                        <p class="no-margin text-bold">Monero XMR</p>
+                      </div>
+                    </div>          
+                  </td>
+                  <td>
+                    <div class="media align-items-center p-0 p18">
+                        1000
+                     </div>
+                  </td>
+                  <td>
+                    <div class="media align-items-center p-0 p18">
+                        122160
+                     </div>          
+                  </td>
+                  <td>
+                    <div class="media align-items-center p-0 p18">
+                        5
+                     </div>          
+                  </td>
+                </tr>
+                <tr>
                     <th>
                        <div class="media align-items-center p-0 p18">
-                          1
+                          13
                        </div>
                     </th>
                     <td>
                         <div class="media align-items-center p-0">
                         <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
+                          <a href="#"><i class="cc DCR mr-5" title="DCR"></i></a>
                         </div>
                         <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
+                          <p class="no-margin text-bold"> Decred  DCR</p>
                         </div>
                       </div>          
                     </td>
                     <td>
                       <div class="media align-items-center p-0 p18">
-                          1
+                          1000
                        </div>
                     </td>
                     <td>
                       <div class="media align-items-center p-0 p18">
-                          1
+                          89300
                        </div>          
                     </td>
                     <td>
                       <div class="media align-items-center p-0 p18">
-                          1
+                          5
                        </div>          
                     </td>
                   </tr>
                   <tr>
-                    <th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-                    <td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-                    <td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-                    <td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-                    <td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-                    <td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>
-                       <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </th>
-                    <td>
-                        <div class="media align-items-center p-0">
-                        <div class="text-center">
-                          <a href="#"><i class="cc BTC mr-5" title="BTC"></i></a>
-                        </div>
-                        <div>
-                          <p class="no-margin text-bold">Bitcoin BTC</p>
-                        </div>
-                      </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                    <td>
-                      <div class="media align-items-center p-0 p18">
-                          1
-                       </div>          
-                    </td>
-                  </tr>
+                      <th>
+                         <div class="media align-items-center p-0 p18">
+                            14
+                         </div>
+                      </th>
+                      <td>
+                          <div class="media align-items-center p-0">
+                          <div class="text-center">
+                            <a href="#"><i class="cc GNT mr-5" title="GNT"></i></a>
+                          </div>
+                          <div>
+                            <p class="no-margin text-bold">Golem GNT</p>
+                          </div>
+                        </div>          
+                      </td>
+                      <td>
+                        <div class="media align-items-center p-0 p18">
+                            1000
+                         </div>
+                      </td>
+                      <td>
+                        <div class="media align-items-center p-0 p18">
+                            354.17
+                         </div>          
+                      </td>
+                      <td>
+                        <div class="media align-items-center p-0 p18">
+                            5
+                         </div>          
+                      </td>
+                    </tr>
+                    <tr>
+                        <th>
+                           <div class="media align-items-center p-0 p18">
+                              15
+                           </div>
+                        </th>
+                        <td>
+                            <div class="media align-items-center p-0">
+                            <div class="text-center">
+                              <a href="#"><i class="cc QTUM mr-5" title="QTUM"></i></a>
+                            </div>
+                            <div>
+                              <p class="no-margin text-bold">Qtum QTUM</p>
+                            </div>
+                          </div>          
+                        </td>
+                        <td>
+                          <div class="media align-items-center p-0 p18">
+                              1000
+                           </div>
+                        </td>
+                        <td>
+                          <div class="media align-items-center p-0 p18">
+                              10150
+                           </div>          
+                        </td>
+                        <td>
+                          <div class="media align-items-center p-0 p18">
+                              5
+                           </div>          
+                        </td>
+                      </tr>
+                      <tr>
+                          <th>
+                             <div class="media align-items-center p-0 p18">
+                                16
+                             </div>
+                          </th>
+                          <td>
+                              <div class="media align-items-center p-0">
+                              <div class="text-center">
+                                <a href="#"><i class="cc XEM mr-5" title="XEM"></i></a>
+                              </div>
+                              <div>
+                                <p class="no-margin text-bold">NEM XEM</p>
+                              </div>
+                            </div>          
+                          </td>
+                          <td>
+                            <div class="media align-items-center p-0 p18">
+                                1000
+                             </div>
+                          </td>
+                          <td>
+                            <div class="media align-items-center p-0 p18">
+                                186.1
+                             </div>          
+                          </td>
+                          <td>
+                            <div class="media align-items-center p-0 p18">
+                                5
+                             </div>          
+                          </td>
+                        </tr>
+                        <tr>
+                            <th>
+                               <div class="media align-items-center p-0 p18">
+                                  17
+                               </div>
+                            </th>
+                            <td>
+                                <div class="media align-items-center p-0">
+                                <div class="text-center">
+                                  <a href="#"><i class="cc ETC mr-5" title="ETC"></i></a>
+                                </div>
+                                <div>
+                                  <p class="no-margin text-bold">Ethereum Classic ETC</p>
+                                </div>
+                              </div>          
+                            </td>
+                            <td>
+                              <div class="media align-items-center p-0 p18">
+                                  1000
+                               </div>
+                            </td>
+                            <td>
+                              <div class="media align-items-center p-0 p18">
+                                  17180
+                               </div>          
+                            </td>
+                            <td>
+                              <div class="media align-items-center p-0 p18">
+                                  5
+                               </div>          
+                            </td>
+                          </tr>
+                          
+                            <tr>
+                                <th>
+                                   <div class="media align-items-center p-0 p18">
+                                      18
+                                   </div>
+                                </th>
+                                <td>
+                                    <div class="media align-items-center p-0">
+                                    <div class="text-center">
+                                      <a href="#"><i class="cc ZEC mr-5" title="ZEC"></i></a>
+                                    </div>
+                                    <div>
+                                      <p class="no-margin text-bold">Zcash ZECH</p>
+                                    </div>
+                                  </div>          
+                                </td>
+                                <td>
+                                  <div class="media align-items-center p-0 p18">
+                                      1000
+                                   </div>
+                                </td>
+                                <td>
+                                  <div class="media align-items-center p-0 p18">
+                                      187750
+                                   </div>          
+                                </td>
+                                <td>
+                                  <div class="media align-items-center p-0 p18">
+                                      5
+                                   </div>          
+                                </td>
+                              </tr>
+                              <tr>
+                                  <th>
+                                     <div class="media align-items-center p-0 p18">
+                                        19
+                                     </div>
+                                  </th>
+                                  <td>
+                                      <div class="media align-items-center p-0">
+                                      <div class="text-center">
+                                        <a href="#"><i class="cc LSK mr-5" title="LSK"></i></a>
+                                      </div>
+                                      <div>
+                                        <p class="no-margin text-bold">LISK LSK</p>
+                                      </div>
+                                    </div>          
+                                  </td>
+                                  <td>
+                                    <div class="media align-items-center p-0 p18">
+                                        1000
+                                     </div>
+                                  </td>
+                                  <td>
+                                    <div class="media align-items-center p-0 p18">
+                                        6010
+                                     </div>          
+                                  </td>
+                                  <td>
+                                    <div class="media align-items-center p-0 p18">
+                                        5
+                                     </div>          
+                                  </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                       <div class="media align-items-center p-0 p18">
+                                          20
+                                       </div>
+                                    </th>
+                                    <td>
+                                        <div class="media align-items-center p-0">
+                                        <div class="text-center">
+                                          <a href="#"><i class="cc DGB mr-5" title="DGB"></i></a>
+                                        </div>
+                                        <div>
+                                          <p class="no-margin text-bold">DigiByte DGB</p>
+                                        </div>
+                                      </div>          
+                                    </td>
+                                    <td>
+                                      <div class="media align-items-center p-0 p18">
+                                          1000
+                                       </div>
+                                    </td>
+                                    <td>
+                                      <div class="media align-items-center p-0 p18">
+                                          25.37
+                                       </div>          
+                                    </td>
+                                    <td>
+                                      <div class="media align-items-center p-0 p18">
+                                          5
+                                       </div>          
+                                    </td>
+                                  </tr>
+                                
+                                    
 									
 								</tbody>
 							</table>
