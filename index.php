@@ -30,6 +30,7 @@ if(isset($_POST['btn-login']))
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>cryptoadmin login</title>
 <title>Crypto Admin - Dashboard</title>
+
     
     <!-- Bootstrap 4.0-->
     <link rel="stylesheet" href="http://html-templates.multipurposethemes.com/bootstrap-4/admin/crypto-admin/crypto-dark-admin/assets/vendor_components/bootstrap/dist/css/bootstrap.css">
@@ -105,6 +106,11 @@ if(isset($_POST['btn-login']))
         </div>
        
      	<hr />
+
+        <div class="form-group">
+            <div id="html_element"></div>
+
+        </div>
         
         <div class="form-group">
             <button type="submit" name="btn-login" class="btn btn-default">
@@ -119,5 +125,11 @@ if(isset($_POST['btn-login']))
     
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- api reqests to coinmarketcap  -->
+  <script src="js/api.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
 </body>
 </html>
