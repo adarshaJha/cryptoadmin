@@ -2,6 +2,8 @@
 
 $curl = curl_init();
 
+
+
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.coinmarketcap.com/v2/ticker/?id=1",
   CURLOPT_RETURNTRANSFER => true,
